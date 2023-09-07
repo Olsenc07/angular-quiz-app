@@ -32,11 +32,11 @@
   </li> 
   </ol>
   <!-- submit -->
-  <div *ngIf="answersForm.valid" class="submit" >
+  <ng-container *ngIf="answersForm.valid" class="submit" >
     <button mat-raised-button color="primary" id="submit" type="submit" >
       Submit
     </button>
-  </div>
+  </ng-container>
   </form>
   </body>
   </html>
